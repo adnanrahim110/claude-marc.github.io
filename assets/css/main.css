@@ -249,7 +249,7 @@ header .navbar {
     position: relative;
     z-index: 1;
     padding-top: 160px;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
 }
 
 .hero-sec::before {
@@ -340,35 +340,6 @@ header .navbar {
     position: relative;
     padding-block: 70px;
     margin-bottom: 80px;
-}
-
-.about-overlay {
-    position: absolute;
-    content: "";
-    left: 0px;
-    top: 0px;
-    background: url(../images/book-cover-banner.png) no-repeat center;
-    background-size: cover;
-    opacity: .7;
-    filter: blur(4px);
-    width: 47%;
-    height: 100%;
-    border-radius: 0px 100px 100px 0px;
-    z-index: -1;
-}
-
-.about-sec:before {
-    position: absolute;
-    content: "";
-    left: 0px;
-    top: 0px;
-    background: #202020;
-    background-size: 150% 100%;
-    opacity: .95;
-    width: 47%;
-    height: 100%;
-    border-radius: 0px 100px 100px 0px;
-    z-index: -1;
 }
 
 .about-content h2 {
