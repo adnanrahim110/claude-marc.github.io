@@ -244,12 +244,13 @@ header .navbar {
 /* hero section */
 
 .hero-sec {
+    height: 85vh;
     background: url(../images/banner-1.jpg) no-repeat;
     background-size: cover;
     position: relative;
     z-index: 1;
     padding-top: 160px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .hero-sec::before {
@@ -260,7 +261,7 @@ header .navbar {
     width: 100%;
     height: 100%;
     background: var(--secondary-color);
-    opacity: .9;
+    opacity: .8;
     z-index: -1;
 }
 
@@ -283,7 +284,7 @@ header .navbar {
 }
 
 .hero-sec .banner-content h1 {
-    font-size: 60px;
+    font-size: 70px;
     line-height: 70px;
     margin-bottom: 30px;
     color: #fff;
@@ -306,6 +307,11 @@ header .navbar {
     border-color: var(--primary-color);
     color: #fff;
     background: var(--primary-color);
+}
+
+.hero-sec .btn {
+    font-size: 20px;
+    padding: 14px 50px;
 }
 
 .btn {
